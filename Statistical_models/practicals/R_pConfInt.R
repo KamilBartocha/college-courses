@@ -33,4 +33,3 @@ print(ci.vector[1])
 
 print(ci.vector[1:10])
 print(c(mean(ci.vector), sd(ci.vector)))
-
