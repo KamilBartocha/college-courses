@@ -38,7 +38,6 @@ class MainActivity3 : AppCompatActivity() {
         }, 1000)
     }
 
-
     fun queryResult(result : JSONObject) {
         val jsonArray = JSONArray(result["message"].toString())
         qResult = jsonArray
@@ -72,8 +71,6 @@ class MainActivity3 : AppCompatActivity() {
 
         VolleySingleton.getInstance(this).addToRequestQueue(requestPOST)
     }
-
-
 
     fun onClickQuery_all(v: View) {
 
