@@ -7,4 +7,5 @@
 - ODE_numerical_methods `Python`
 - Option_pricing_Hull_White_model `Python`
 - Project_management `Kotlin`
+- SQL_data_bases `SQL`
 - Statistical_models `R`
